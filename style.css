@@ -1,33 +1,42 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
+
 nav h3 {
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
 }
+
 .n {
     color: rgb(255, 115, 0);
 }
-nav > ul {
+
+nav>ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
+
 nav li a {
     margin-right: 15px;
     text-decoration: none;
     color: #313131;
 }
+
 .me-btn {
     background-color: rgb(255, 115, 0);
     border-radius: 5px;
-    border:0;
+    border: 0;
     font-size: 20px;
-    color:white;
+    color: white;
     padding: 18px 35px;
 }
 
@@ -36,30 +45,35 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
+
 .banner-greet {
     font-size: 45px;
     margin-bottom: 0;
     color: #474747;
 }
+
 .banner-tit {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #555555;
     font-weight: 800;
     margin-top: 5px;
 }
+
 .banner-content {
-    max-width:500px;
+    max-width: 500px;
 }
-.banner-content > p {
+
+.banner-content>p {
     margin-bottom: 22px;
 }
+
 /* header */
 header {
     background-color: rgba(250, 235, 215, 0.452);
     background-image: url('header_bg.png');
     background-repeat: no-repeat;
-    background-position:  bottom right;
+    background-position: bottom right;
 }
 
 .banner img {
@@ -71,22 +85,97 @@ header {
 .about {
     background-color: rgba(250, 235, 215, 0.452);
     text-align: center;
-    padding: 130px;
+    padding: 150px;
     border-radius: 10px;
     margin: 130px 0;
-    
+
 }
+
 main {
-    max-width: 1130px;
+    max-width: 1030px;
     margin: 0 auto;
 }
+
 .sec-title {
-
+    color: #181818;
+    text-align: center;
+    
+    font-size: 35px;
+    
+    font-weight: 700;
+    line-height: normal;
 }
+
 .sec-desc {
-
+    margin-top: 0;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
+}
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+#what-i-did {
+    text-align: center;
+    padding: 20px 150px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.skill-container {
+    display: flex;
+    gap: 30px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* resume */
+.resume {
+    margin-top: 130px;
+
+}
+
+.r-col {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+
+}
+.r-title {
+    color:  #474747;
+    /* font-size: 30px; */
+    margin: 0px 0px 5px 0px;
+}
+
+.r-cmpny {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.r-cmpny , .r-desc {
+    color: #757575;
+}
+.r-desc {
+    margin-top: 0px ;
+}
+.r-col h1 {
+    margin-bottom: 12px;
+}
+
+.resume hr {
+    background: #D1D1D1;
+    margin: 30px;
+    /* align-items: center; */
 }
