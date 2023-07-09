@@ -74,10 +74,19 @@ header {
     padding: 130px;
     border-radius: 10px;
     margin: 130px 0;
+    
+}
+main {
+    max-width: 1130px;
+    margin: 0 auto;
 }
 .sec-title {
 
 }
 .sec-desc {
 
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
